@@ -1,0 +1,21 @@
+--> The LifeCycle of Thread in Java consists of several states, which a thread can move through during its execution.
+
+LifeCycle of Thread:
+
+(i) New: A Thread is created but not yet started
+
+(ii) Runnable: After the start method is called, the thread becomes runnable. It is ready to run & is waiting for the CPU time.
+
+(iii) Running: The thread is in this state when it is executing.
+
+(iv) Blocked / Waiting: A thread is in this state when it is waiting for a resource or waiting for another thread to perform an action
+
+(v) Terminated: A thread is in this state when it finishes its execution.
+
+
+
+Q. To create a thread which method should we use ? By extending the Thread Class or Implementing the Runnable Interface ?
+
+--> We can use any method to create a Thread. 
+
+--> But when a class is already extending a Parent class then we have to implement the Runnable interface because multiple inheritance is not possible in Java.
