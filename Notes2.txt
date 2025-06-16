@@ -1,0 +1,11 @@
+** How JVM handles Multi-threading ** 
+
+-->Java's multi-threading capabilities are a part of java.lang package which makes it easy to implement simultaneous execution.
+
+--> In a single core environment, Java's multi-threading is managed by the JVM and the OS Which switches in between the threads to give an illution of simultaneous execution.
+
+--> In a multi-core environment, Java's multi-threading can take full advantage of the available cores because the JVM distribues the threads across multiple cores which allows a true parallel execution of the threads. 
+
+--> Java supports multi-threading through java.lang.Thread class & java.lang.Runnable interface.
+
+--> When a Java program starts, one thread begins running immediately which is known as main thread. This thread is responsible for executing the main method of a program
