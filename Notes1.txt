@@ -1,0 +1,61 @@
+
+Q. What is CPU?
+
+-->The CPU is often referred to as the brain of the computer and it is responsible for executing instructions from the programs.
+
+Q. What is a Core?
+
+--> A core is a indivisual processing Unit inside the CPU. Modern CPUs have multiple cores which allowing them to perform multiple task simultaneously.
+
+Q. What is a Quad-Core?
+
+--> A Quad-Core processor has 4 cores inside a CPU which allowing them to perform 4 task simultaneously.
+For example:- 1st Core handles your "Web Browser", 2nd Core handles your "Download Manager", 3rd Core handles your "Music Player" and 4th Core handles your "Background and System Update".  
+
+Q. What is a Program ?
+
+--> Basically it is a set of instructions which is written in a programming language to tell the computer how to perform a particular task. 
+
+Q. What is a Process?
+
+--> A process is an instance or a object of a Program that is executed. When a program executes the OS will automatically create a process of that program to manage its execution.
+For example:- When we open a notepad, it becomes a process inside the OS.
+
+Q. What is a Thread?
+
+--> Basically a thread is the smallest unit of execution within a process (Eek Process ke andar small small task). A process can have multiple threads that share the same resources but it can run independently.
+
+For example:- When we open our Chrome Browser and open 5 tabs simultaneously then the Chrome Browser can use 5 therads for managing this 5 tabs while sharing the same resources. 
+
+
+Q. What is Multi-Tasking?
+
+--> Bascally Musti-tasking allows OS to run multiple processes simultaneously. On Single-Core CPU multi-tasking is done by rapidly switching in between the tasks. On Multi-Core CPUs, multitasking is handled by the OS Scheduler to balance the load & ensures efficient system performance.
+
+Example: We are browsing the internet while listening to the music & also downloading a file.
+
+--> When an OS performs multi-tasking it assigns different tasks to different cores. It is more efficient than assigning multiple task to a single core.
+
+Q. What is Multi-threading ?
+
+--> Basically it is the ability to execute multiple threads within a single process simultaneously is known as multi-threading.
+
+Example: A web browser can use multi-threading by having seperate threads for rendering the Page, running the Javascript & managing the User inputs. It makes the browser more efficient & responsive.
+
+--> Multi-threading improves the efficiency of multi-tasking by breaking an entire process into small small task (known as threads) & these threads are processed simultaneously to make better use of the CPU's capabilities.
+
+
+(i) In a Single Core System: Both the threads & the processes are managed by the OS Scheduler through time slicing & rapid switching in between the tasks to create an illusion of simultaneously execution.
+
+(ii) In a Multi-Core System: Both the threads & the processes run on a different indivisual cores which is handled by the OS scheduler by distributing each & every task to different cores in order to optimize the performance.
+
+
+
+** Definations: ** 
+
+Q. What is Time slicing ? 
+
+--> Basically time slicing divides the CPU time into smaller intervals called time slices or quanta.
+
+--> Then the OS scheduler will allocate these time slices to different threads & processes such that to ensure that each one gets a fair share to the CPU time.
+
