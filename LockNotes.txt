@@ -1,0 +1,5 @@
+** Locks ** 
+
+--> Basically every object is having in-built locks in it. You don't see them but they are there. When we use the "synchronized keyword" then we use these automatic locks. This is known as intrensic locks.
+
+--> There is another type of lock (i.e. Explicit locks). These locks are more advance locks that you can control by using the Lock class from java.util.concurrent.locks. We can able to say explicitly when to lock & when to not lock, which gives us more control over how & when people can able to write in the notebook.
