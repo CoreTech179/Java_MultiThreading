@@ -1,0 +1,5 @@
+--> Basically Deadlock is a situation in multi-threading where two or more threads are blocked forever, waiting for each other to release a resource.
+
+--> This typically occurs when two or more threads have circular dependencies on each other.
+
+Circular Dependency means: Two or more threads is waiting for each other in a circular chain as a result nothing will happen & both the threads keeps on waiting. This is known as Deadlock.
