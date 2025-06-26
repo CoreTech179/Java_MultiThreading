@@ -1,0 +1,10 @@
+--> In a multi-threaded environment threads often needed to communicate & co-ordinate with each other to complete a task.
+
+--> If the commincation is not made properly then the threads keeps on waiting for their turn. As a result it leads to wastage of CPU resources & potential deadlock will occur.
+
+--> There are some in-built methods such as 
+(i) wait
+(ii) notify 
+(iii) notifyAll
+
+--> These methods can only be called within a synchronized block or method.
