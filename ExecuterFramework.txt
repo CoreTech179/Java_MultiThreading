@@ -1,0 +1,15 @@
+--> The Executors framework was introduced in Java 5 as a part of the java.util.concurrent package which is used to simplify the development of concurrent applications by abstracting away many of the complexities involved in creating & managing threads. 
+
+--> In industry we will not create thread & run a thread manually we will defenitely use the executor framework. If we will create thread by ourself & run manually then there are many complexities will arise which is difficult to handle. 
+
+--> Concurrent Application means: Applications that can do multiple things at the same time
+
+There are 3 main core interfaces such as:
+
+(i) Executor
+(ii) ExecutorService
+(iii) ScheduledExecutorService
+
+Q. What is the difference between Runnable & Callable interface in java ?
+
+--> Basically if we want to return something then we use Callable & when we don't want to return anything then we use Runnable.
